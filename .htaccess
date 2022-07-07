@@ -13,6 +13,7 @@ RewriteRule . /index.php [L]
 
 RewriteEngine On
 Redirect 301 /buy https://parent.safe.vision/purchase/signin
+Redirect 301 /subscribe https://parent.safe.vision/purchase/signin
 Redirect 301 /try https://parent.safe.vision/try
 Redirect 301 /forget /forgot
 Redirect 301 /iforgot /forgot
